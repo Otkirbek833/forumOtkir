@@ -1,0 +1,1 @@
+console.log('Forum Platforması JS isledi');

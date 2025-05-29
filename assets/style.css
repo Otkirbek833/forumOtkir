@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    background: #f0f0f0; /* Fonda aniq rang */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Rasmni ekranga moslashtirish */
+    z-index: -1; /* Rasmni yozuvlardan orqaga joylashtirish */
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
